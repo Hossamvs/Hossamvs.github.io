@@ -4,7 +4,7 @@
 /* Mobile Layout: 320px */
 /* Wide Mobile Layout: 480px */
 /* =================================== */
-/*  Basic Style 
+/*  Basic Style
 /* =================================== */
 ::-moz-selection {
   /* Code for Firefox */
@@ -1955,9 +1955,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .p1-gradient-bg, .primary-btn, .primary-btn2:hover, .default-header, .dropdown-menu, .banner-area, .myself-wrap .desc .talk-btn, .skillbar-bar, .single-feature:hover, .single-footer-widget .click-btn, .generic-banner {
-  background-image: -moz-linear-gradient(0deg, #62bdfc 0%, #8490ff 100%);
-  background-image: -webkit-linear-gradient(0deg, #62bdfc 0%, #8490ff 100%);
-  background-image: -ms-linear-gradient(0deg, #62bdfc 0%, #8490ff 100%);
+  /*background-image: -moz-linear-gradient(0deg, #62bdfc 0%, #000000 100%);
+  background-image: -webkit-linear-gradient(0deg, #62bdfc 0%, #000000 100%);
+  background-image: -ms-linear-gradient(0deg, #62bdfc 0%, #000000 100%);*/
+  background-image: url('https://images.unsplash.com/photo-1541713508760-e59f8a02601b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80');
 }
 
 .p1-gradient-color, .single-service a:hover, .footer-social a:hover i, .single-footer-widget .bb-btn {
@@ -2344,11 +2345,20 @@ h1, h2, h3, h4, h5, h6 {
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+
 }
+
 
 .single-project img:hover {
   cursor: pointer;
   transform: scale(0.9);
+}
+
+.project-left{
+  border-right: 1px solid;
+}
+.project-right{
+  border-left: 1px solid;
 }
 
 @media (max-width: 800px) {
