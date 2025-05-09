@@ -10,6 +10,18 @@
 //       It will only set the 'top' and 'position' of your element, you
 //       might need to adjust the width in some cases.
 
+/**
+ * Creates a sticky element that remains fixed in position when scrolling
+ * @param {Object} options - Configuration options for the sticky element
+ * @param {number} [options.topSpacing=0] - Top spacing in pixels
+ * @param {number} [options.bottomSpacing=0] - Bottom spacing in pixels
+ * @param {string} [options.className='is-sticky'] - CSS class name for the sticky element
+ * @param {string} [options.wrapperClassName='sticky-wrapper'] - CSS class name for the wrapper
+ * @param {boolean} [options.center=false] - Whether to center the sticky element
+ * @param {string} [options.getWidthFrom=''] - Selector to get width from
+ * @param {boolean} [options.responsiveWidth=false] - Whether to update width on window resize
+ * @returns {jQuery} jQuery object for chaining
+ */
 (function($) {
   var defaults = {
       topSpacing: 0,
