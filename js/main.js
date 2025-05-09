@@ -1,4 +1,15 @@
 
+/**
+ * Sets up various UI interactions and initializes plugins when the document is ready.
+ * This method handles responsive design adjustments, activates plugins like Sticky,
+ * NiceSelect, Magnific Popup, and OwlCarousel, and sets up smooth scrolling for
+ * navigation links.
+ * 
+ * @param {undefined} No parameters are explicitly defined for this method.
+ * @returns {undefined} This method does not return a value.
+ * 
+ * @throws {Error} May throw errors if DOM elements are not found or if plugins fail to initialize.
+ */
 $(document).ready(function(){
 	"use strict";
 
